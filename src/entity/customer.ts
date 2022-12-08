@@ -14,7 +14,7 @@ class Customer {
         if (!this._name.length) {
             throw new Error("Name is required")
         }
-
+ 
         if (!this._id.length) {
             throw new Error("Id is required")
         }
